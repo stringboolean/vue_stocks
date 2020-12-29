@@ -14,6 +14,8 @@ Vue.config.productionTip = false;
 
 Vue.use(VueRouter);
 
+Vue.http.options.root = "https://josephmoore.herokuapp.com/";
+
 const router = new VueRouter({
   mode: 'history',
   routes
